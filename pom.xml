@@ -240,7 +240,7 @@
 			<artifactId>hanlp</artifactId>
 			<version>1.3.2</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/hanlp-1.3.2.jar</systemPath>
+			<systemPath>${pom.basedir}/src/main/webapp/WEB-INF/lib/hanlp-1.3.2.jar</systemPath>
 		</dependency>
 
 		<!-- lucene 插件 -->
@@ -250,7 +250,7 @@
 			<artifactId>hanlp-lucene</artifactId>
 			<version>1.1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/hanlp-lucene-1.1.1.jar</systemPath>
+			<systemPath>${pom.basedir}/src/main/webapp/WEB-INF/lib/hanlp-lucene-1.1.1.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -258,7 +258,7 @@
 			<artifactId>IKANalyzer</artifactId>
 			<version>5.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/IKANalyzer-5.0.jar</systemPath>
+			<systemPath>${pom.basedir}/src/main/webapp/WEB-INF/lib/IKAnalyzer-5.0.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -272,7 +272,7 @@
 			<artifactId>tika-app</artifactId>
 			<version>1.6</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/tika-app-1.6.jar</systemPath>
+			<systemPath>${pom.basedir}/src/main/webapp/WEB-INF/lib/tika-app-1.6.jar</systemPath>
 		</dependency>
 
 		<!-- 爬虫工具 -->
@@ -294,7 +294,7 @@
 			<artifactId>ueditor</artifactId>
 			<version>1.1.2</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/resource/ueditor/jsp/lib/uedtior-soklib-1.1.jar</systemPath>
+			<systemPath>${pom.basedir}/src/main/webapp/resource/ueditor/jsp/lib/uedtior-soklib-1.1.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -302,7 +302,7 @@
 			<artifactId>codec</artifactId>
 			<version>1.9</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/resource/ueditor/jsp/lib/commons-codec-1.9.jar</systemPath>
+			<systemPath>${pom.basedir}/src/main/webapp/resource/ueditor/jsp/lib/commons-codec-1.9.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -310,7 +310,7 @@
 			<artifactId>json</artifactId>
 			<version>1.9</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/resource/ueditor/jsp/lib/json.jar</systemPath>
+			<systemPath>${pom.basedir}/src/main/webapp/resource/ueditor/jsp/lib/json.jar</systemPath>
 		</dependency>
 
 		<!-- htmlToPdf -->
@@ -341,7 +341,7 @@
 			<artifactId>xmlworker</artifactId>
 			<version>5.4.1</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/xmlworker-1.2.1-micmiu.jar</systemPath>
+			<systemPath>${pom.basedir}/src/main/webapp/WEB-INF/lib/xmlworker-1.2.1-micmiu.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
