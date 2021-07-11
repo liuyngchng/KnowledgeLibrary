@@ -26,7 +26,7 @@ public class TranslateUtils {
 
 	public static OfficeConvert getOfficeConvert() {
 		org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration config = new org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration();
-		config.setOfficeHome("C:\\Program Files (x86)\\OpenOffice 4\\");
+		config.setOfficeHome("/opt/openoffice4");
 		// OpenOffice安装路径
 		config.setPortNumber(8100);
 		// 启动服务端口号
