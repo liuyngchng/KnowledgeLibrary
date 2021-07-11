@@ -11,7 +11,7 @@
 	<jmxConfigurator />
 
 	<!-- 定义日志文件 输出位置 -->
-	<property name="log_dir" value="d://soklib/logs/" />
+	<property name="log_dir" value="logs" />
 
 	<!-- 日志最大的历史 30天 -->
 	<property name="maxHistory" value="7" />
@@ -45,7 +45,7 @@
                 <!-- 设置日志输出格式 -->
                 %d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger - %msg%n
             </pattern>
-        </encoder>
+        </encoder>`
     </appender>
  
      
@@ -56,8 +56,8 @@
     <root>
         <!-- 打印debug级别日志及以上级别日志 -->
         <level value="info" />
-        <!-- 控制台输出
-        <appender-ref ref="console" /> -->
+        <!-- 控制台输出 -->
+        <appender-ref ref="console" />
         <!-- 文件输出 -->
         <appender-ref ref="FILE" />
      
